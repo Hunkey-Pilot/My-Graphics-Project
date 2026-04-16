@@ -1,0 +1,1 @@
+g++ dda.cpp -o dda -lfreeglut -lopengl32 -lglu32

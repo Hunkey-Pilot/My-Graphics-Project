@@ -1,0 +1,16 @@
+# Ignore compiler
+mingw32/
+MinGW/
+
+# Ignore executables
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# VS Code settings (optional)
+.vscode/
+
+# Temp files
+*.log
