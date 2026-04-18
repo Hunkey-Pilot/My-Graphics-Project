@@ -120,6 +120,11 @@ void playRainSound()
     PlaySound(TEXT("assets\\thunder-rain.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
 }
 
+void playNightSound()
+{
+    PlaySound(TEXT("assets\\schorsch1964-night-atmosphere-with-crickets-374652.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+}
+
 void stopAllSounds()
 {
     PlaySound(0, 0, 0);
@@ -133,7 +138,7 @@ void updatedSceneSound()
     }
     else if (scene == 2)
     {
-        stopAllSounds();
+        playNightSound();
     }
     else if (scene == 1 || scene == 3)
     {
